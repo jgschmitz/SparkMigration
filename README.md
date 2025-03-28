@@ -38,6 +38,7 @@ df_transformed = df_orders_with_customers.select(
 )
 ```
 📤 4. Write to MongoDB
+```
 df_transformed.write.format("mongodb") \
     .mode("overwrite") \
     .option("database", "northwind") \

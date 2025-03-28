@@ -38,7 +38,6 @@ df_transformed = df_orders_with_customers.select(
 )
 ```
 📤 4. Write to MongoDB
-```
 df_transformed.write.format("mongodb") \
     .mode("overwrite") \
     .option("database", "northwind") \
@@ -47,6 +46,7 @@ df_transformed.write.format("mongodb") \
 ```
 ✅ Sample Output in MongoDB
 Here’s what a sample document might look like in MongoDB after transformation:
+```
 {
   "OrderID": 10248,
   "OrderDate": "1996-07-04T00:00:00.000Z",

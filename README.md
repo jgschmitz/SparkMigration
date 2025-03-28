@@ -47,16 +47,16 @@ df_transformed.write.format("mongodb") \
 ✅ Sample Output in MongoDB
 Here’s what a sample document might look like in MongoDB after transformation:
 ```
-{
-  "OrderID": 10248,
-  "OrderDate": "1996-07-04T00:00:00.000Z",
-  "ShipName": "Vins et alcools Chevalier",
-  "ShipCity": "Reims",
-  "CustomerInfo": {
-    "CustomerID": "VINET",
-    "CompanyName": "Vins et alcools Chevalier",
-    "ContactName": "Paul Henriot",
-    "Country": "France"
-  }
-}
+{<br>
+  "OrderID": 10248,<br>
+  "OrderDate": "1996-07-04T00:00:00.000Z",<br>
+  "ShipName": "Vins et alcools Chevalier",<br>
+  "ShipCity": "Reims",<br>
+  "CustomerInfo": {<br>
+    "CustomerID": "VINET",<br>
+    "CompanyName": "Vins et alcools Chevalier",<br>
+    "ContactName": "Paul Henriot",<br>
+    "Country": "France"<br>
+  }<br>
+}<br>
 ```
